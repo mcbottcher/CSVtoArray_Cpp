@@ -13,7 +13,7 @@ class CSVreader{
     void readCSV();
     void printVectorArray();
     
-    vector<vector<int>> * getVectorArray();  
+    vector<vector<int>> getVectorArray();  
     const long int * getValueArray();
   
   private:

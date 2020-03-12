@@ -64,7 +64,8 @@ void CSVreader::printVectorArray(){
 
 }
 
-vector<vector<int>> * CSVreader::getVectorArray(){
+vector<vector<int>> CSVreader::getVectorArray(){
+	return vectorarray;
 }  
 
 const long int * CSVreader::getValueArray(){
